@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/static/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2); /* Soft white tint */
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(34, 49, 63, 0.25); /* Softer, more natural shadow */
+    backdrop-filter: blur(8px) saturate(150%); /* Slight blur with saturation */
+    -webkit-backdrop-filter: blur(8px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+.title {
+    font-size: 2.5rem;
+    color: #27a745;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+label {
+    font-size: 1rem;
+    color: #000000;
+}
+
+input, select, button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+}
+
+input:focus, select:focus, button:focus {
+    border-color: #27a745;
+    outline: none;
+}
+
+button {
+    background-color: #27a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #444;
+}
